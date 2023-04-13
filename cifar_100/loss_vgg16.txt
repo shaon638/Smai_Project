@@ -1,0 +1,863 @@
+==========================================
+SLURM_JOB_ID = 874231
+SLURM_NODELIST = gnode035
+SLURM_JOB_GPUS = 0
+==========================================
+/home2/shaon/miniconda3/envs/trans/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home2/shaon/miniconda3/envs/trans/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Files already downloaded and verified
+TrainBatchLoss: 0	 loss :6.91573429107666
+TrainBatchLoss: 100	 loss :5.979693950993
+TrainBatchLoss: 200	 loss :5.32614112730643
+TrainBatchLoss: 300	 loss :5.100870774037814
+TrainBatchLoss: 400	 loss :4.984910944750779
+TrainBatchLoss: 500	 loss :4.9159765253047985
+TrainBatchLoss: 600	 loss :4.868466026572737
+TrainBatchLoss: 700	 loss :4.834566948247194
+TrainBatchLoss: 800	 loss :4.809147593680392
+TrainBatchLoss: 900	 loss :4.788955067688564
+TrainBatchLoss: 1000	 loss :4.772053284602208
+TrainBatchLoss: 1100	 loss :4.758895993557548
+TrainBatchLoss: 1200	 loss :4.747393165798012
+TrainBatchLoss: 1300	 loss :4.737809862199882
+TrainBatchLoss: 1400	 loss :4.729665205531423
+validationBatchLoss:0	 loss :4.642786026000977
+validationBatchLoss:10	 loss :4.614955035122958
+validationBatchLoss:20	 loss :4.617407548995245
+validationBatchLoss:30	 loss :4.615634087593325
+validationBatchLoss:40	 loss :4.615990382869069
+validationBatchLoss:50	 loss :4.614742475397446
+validationBatchLoss:60	 loss :4.6143479347229
+Epoch 1 	 Training Loss: 4.722320396741232 	 Valid_Loss: 4.613953234657409 	 val_acc@1: 0.7000000000000001 	 LR:0.001 	 Time(s):454.9672636985779
+TrainBatchLoss: 0	 loss :4.5802435874938965
+TrainBatchLoss: 100	 loss :4.619153716776631
+TrainBatchLoss: 200	 loss :4.6200218556532215
+TrainBatchLoss: 300	 loss :4.619027519542909
+TrainBatchLoss: 400	 loss :4.61887938720627
+TrainBatchLoss: 500	 loss :4.618688297842791
+TrainBatchLoss: 600	 loss :4.618565779954145
+TrainBatchLoss: 700	 loss :4.618189154609974
+TrainBatchLoss: 800	 loss :4.618097397569711
+TrainBatchLoss: 900	 loss :4.6178346532298775
+TrainBatchLoss: 1000	 loss :4.617456421866403
+TrainBatchLoss: 1100	 loss :4.617295202832131
+TrainBatchLoss: 1200	 loss :4.6172870783682765
+TrainBatchLoss: 1300	 loss :4.617288712626874
+TrainBatchLoss: 1400	 loss :4.616920188356518
+validationBatchLoss:0	 loss :4.62565279006958
+validationBatchLoss:10	 loss :4.616882064125755
+validationBatchLoss:20	 loss :4.620202041807628
+validationBatchLoss:30	 loss :4.6169000748665106
+validationBatchLoss:40	 loss :4.61533473177654
+validationBatchLoss:50	 loss :4.613416344511743
+validationBatchLoss:60	 loss :4.61190212750044
+Epoch 2 	 Training Loss: 4.6167628895441695 	 Valid_Loss: 4.611745864625961 	 val_acc@1: 1.2 	 LR:0.001 	 Time(s):455.25376749038696
+TrainBatchLoss: 0	 loss :4.644434928894043
+TrainBatchLoss: 100	 loss :4.614416533177442
+TrainBatchLoss: 200	 loss :4.614687739320062
+TrainBatchLoss: 300	 loss :4.614552255484749
+TrainBatchLoss: 400	 loss :4.6143607260877655
+TrainBatchLoss: 500	 loss :4.613577969297915
+TrainBatchLoss: 600	 loss :4.613899572915126
+TrainBatchLoss: 700	 loss :4.613952323815622
+TrainBatchLoss: 800	 loss :4.613741706224268
+TrainBatchLoss: 900	 loss :4.61365166832419
+TrainBatchLoss: 1000	 loss :4.613437788350718
+TrainBatchLoss: 1100	 loss :4.613320354977919
+TrainBatchLoss: 1200	 loss :4.613302685438247
+TrainBatchLoss: 1300	 loss :4.6131382541964365
+TrainBatchLoss: 1400	 loss :4.613137472535269
+validationBatchLoss:0	 loss :4.614205837249756
+validationBatchLoss:10	 loss :4.612620267001065
+validationBatchLoss:20	 loss :4.611360867818196
+validationBatchLoss:30	 loss :4.609450217216246
+validationBatchLoss:40	 loss :4.609640737859214
+validationBatchLoss:50	 loss :4.610317548116048
+validationBatchLoss:60	 loss :4.609776653227259
+Epoch 3 	 Training Loss: 4.612964570999146 	 Valid_Loss: 4.6091913798498725 	 val_acc@1: 1.25 	 LR:0.001 	 Time(s):455.34490633010864
+TrainBatchLoss: 0	 loss :4.5997233390808105
+TrainBatchLoss: 100	 loss :4.608328587938063
+TrainBatchLoss: 200	 loss :4.609586483210474
+TrainBatchLoss: 300	 loss :4.609464645385742
+TrainBatchLoss: 400	 loss :4.609937717789724
+TrainBatchLoss: 500	 loss :4.61003361205141
+TrainBatchLoss: 600	 loss :4.610127895723365
+TrainBatchLoss: 700	 loss :4.610290774265131
+TrainBatchLoss: 800	 loss :4.610354182425509
+TrainBatchLoss: 900	 loss :4.6106036590550765
+TrainBatchLoss: 1000	 loss :4.610414810828515
+TrainBatchLoss: 1100	 loss :4.6104422239256815
+TrainBatchLoss: 1200	 loss :4.610552088207845
+TrainBatchLoss: 1300	 loss :4.610529477370876
+TrainBatchLoss: 1400	 loss :4.610546271686976
+validationBatchLoss:0	 loss :4.610090732574463
+validationBatchLoss:10	 loss :4.606405344876376
+validationBatchLoss:20	 loss :4.611048925490606
+validationBatchLoss:30	 loss :4.611354243370794
+validationBatchLoss:40	 loss :4.610636804162002
+validationBatchLoss:50	 loss :4.6113118377386355
+validationBatchLoss:60	 loss :4.610437604247546
+Epoch 4 	 Training Loss: 4.610414569854736 	 Valid_Loss: 4.610158443450928 	 val_acc@1: 0.8 	 LR:0.001 	 Time(s):455.5026545524597
+TrainBatchLoss: 0	 loss :4.626590728759766
+TrainBatchLoss: 100	 loss :4.610722810915201
+TrainBatchLoss: 200	 loss :4.610330408485375
+TrainBatchLoss: 300	 loss :4.610715717176267
+TrainBatchLoss: 400	 loss :4.610371885751548
+TrainBatchLoss: 500	 loss :4.6103386555365224
+TrainBatchLoss: 600	 loss :4.610169827243849
+TrainBatchLoss: 700	 loss :4.610340970729115
+TrainBatchLoss: 800	 loss :4.610194665811184
+TrainBatchLoss: 900	 loss :4.610073347864352
+TrainBatchLoss: 1000	 loss :4.610086474861656
+TrainBatchLoss: 1100	 loss :4.610162078413933
+TrainBatchLoss: 1200	 loss :4.6101147562736875
+TrainBatchLoss: 1300	 loss :4.610024275182303
+TrainBatchLoss: 1400	 loss :4.609943842564541
+validationBatchLoss:0	 loss :4.6177191734313965
+validationBatchLoss:10	 loss :4.606771469116211
+validationBatchLoss:20	 loss :4.608960923694429
+validationBatchLoss:30	 loss :4.608877889571652
+validationBatchLoss:40	 loss :4.608800992733094
+validationBatchLoss:50	 loss :4.608670533872118
+validationBatchLoss:60	 loss :4.608899757510326
+Epoch 5 	 Training Loss: 4.609856513023376 	 Valid_Loss: 4.608809221358526 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):455.6655689239502
+TrainBatchLoss: 0	 loss :4.622058391571045
+TrainBatchLoss: 100	 loss :4.607914518601824
+TrainBatchLoss: 200	 loss :4.608828364320062
+TrainBatchLoss: 300	 loss :4.60899021142345
+TrainBatchLoss: 400	 loss :4.609127638048662
+TrainBatchLoss: 500	 loss :4.609087786988584
+TrainBatchLoss: 600	 loss :4.609018026691507
+TrainBatchLoss: 700	 loss :4.608922070681453
+TrainBatchLoss: 800	 loss :4.6090254462167115
+TrainBatchLoss: 900	 loss :4.608933764742429
+TrainBatchLoss: 1000	 loss :4.6089956653225315
+TrainBatchLoss: 1100	 loss :4.609070549652211
+TrainBatchLoss: 1200	 loss :4.609075148834178
+TrainBatchLoss: 1300	 loss :4.608997736043146
+TrainBatchLoss: 1400	 loss :4.608918317295159
+validationBatchLoss:0	 loss :4.59754753112793
+validationBatchLoss:10	 loss :4.607831391421231
+validationBatchLoss:20	 loss :4.610835415976388
+validationBatchLoss:30	 loss :4.609249668736612
+validationBatchLoss:40	 loss :4.608551537118307
+validationBatchLoss:50	 loss :4.608670234680176
+validationBatchLoss:60	 loss :4.6086772856165155
+Epoch 6 	 Training Loss: 4.608911101659139 	 Valid_Loss: 4.608617222498333 	 val_acc@1: 0.8 	 LR:0.001 	 Time(s):455.7078644831975
+TrainBatchLoss: 0	 loss :4.597701549530029
+TrainBatchLoss: 100	 loss :4.6065675244473
+TrainBatchLoss: 200	 loss :4.606740000236094
+TrainBatchLoss: 300	 loss :4.607033279647067
+TrainBatchLoss: 400	 loss :4.607019536215765
+TrainBatchLoss: 500	 loss :4.607047396029778
+TrainBatchLoss: 600	 loss :4.607375703516499
+TrainBatchLoss: 700	 loss :4.607470692649548
+TrainBatchLoss: 800	 loss :4.60753336262316
+TrainBatchLoss: 900	 loss :4.607593474456922
+TrainBatchLoss: 1000	 loss :4.607553215769978
+TrainBatchLoss: 1100	 loss :4.607619861599319
+TrainBatchLoss: 1200	 loss :4.607716696149205
+TrainBatchLoss: 1300	 loss :4.607840609862015
+TrainBatchLoss: 1400	 loss :4.607864744743222
+validationBatchLoss:0	 loss :4.5999369621276855
+validationBatchLoss:10	 loss :4.6102752252058545
+validationBatchLoss:20	 loss :4.6080291838873
+validationBatchLoss:30	 loss :4.608038256245274
+validationBatchLoss:40	 loss :4.60849169987004
+validationBatchLoss:50	 loss :4.609046674242206
+validationBatchLoss:60	 loss :4.608581496066734
+Epoch 7 	 Training Loss: 4.607911364237467 	 Valid_Loss: 4.608469304584322 	 val_acc@1: 1.05 	 LR:0.001 	 Time(s):455.6916290010725
+TrainBatchLoss: 0	 loss :4.617222785949707
+TrainBatchLoss: 100	 loss :4.606193481105389
+TrainBatchLoss: 200	 loss :4.606752962615359
+TrainBatchLoss: 300	 loss :4.606969491191877
+TrainBatchLoss: 400	 loss :4.607023675542817
+TrainBatchLoss: 500	 loss :4.607107826811586
+TrainBatchLoss: 600	 loss :4.607337521633967
+TrainBatchLoss: 700	 loss :4.607300601230028
+TrainBatchLoss: 800	 loss :4.6073240257529875
+TrainBatchLoss: 900	 loss :4.607463773162198
+TrainBatchLoss: 1000	 loss :4.607412437816243
+TrainBatchLoss: 1100	 loss :4.607509326328482
+TrainBatchLoss: 1200	 loss :4.607538232398371
+TrainBatchLoss: 1300	 loss :4.607566078839899
+TrainBatchLoss: 1400	 loss :4.607680203657674
+validationBatchLoss:0	 loss :4.596457004547119
+validationBatchLoss:10	 loss :4.6045661406083545
+validationBatchLoss:20	 loss :4.604819365910122
+validationBatchLoss:30	 loss :4.604790041523595
+validationBatchLoss:40	 loss :4.605793522625435
+validationBatchLoss:50	 loss :4.606288133883009
+validationBatchLoss:60	 loss :4.606290864162758
+Epoch 8 	 Training Loss: 4.607670736312866 	 Valid_Loss: 4.606419305952769 	 val_acc@1: 0.8 	 LR:0.001 	 Time(s):455.6934876739979
+TrainBatchLoss: 0	 loss :4.599778652191162
+TrainBatchLoss: 100	 loss :4.605404608320482
+TrainBatchLoss: 200	 loss :4.60616928072118
+TrainBatchLoss: 300	 loss :4.606508223321351
+TrainBatchLoss: 400	 loss :4.6067254085493206
+TrainBatchLoss: 500	 loss :4.60685030143418
+TrainBatchLoss: 600	 loss :4.607046885815714
+TrainBatchLoss: 700	 loss :4.606961986307751
+TrainBatchLoss: 800	 loss :4.606977103205954
+TrainBatchLoss: 900	 loss :4.606942541459027
+TrainBatchLoss: 1000	 loss :4.60701231761174
+TrainBatchLoss: 1100	 loss :4.607132867506479
+TrainBatchLoss: 1200	 loss :4.607085176351962
+TrainBatchLoss: 1300	 loss :4.607146857611314
+TrainBatchLoss: 1400	 loss :4.607260797297759
+validationBatchLoss:0	 loss :4.609214782714844
+validationBatchLoss:10	 loss :4.607682011344216
+validationBatchLoss:20	 loss :4.6066647711254305
+validationBatchLoss:30	 loss :4.6066645037743355
+validationBatchLoss:40	 loss :4.6067909380284755
+validationBatchLoss:50	 loss :4.607298448974011
+validationBatchLoss:60	 loss :4.607372964014773
+Epoch 9 	 Training Loss: 4.607322130521139 	 Valid_Loss: 4.607397518460712 	 val_acc@1: 1.05 	 LR:0.001 	 Time(s):455.67923185560437
+TrainBatchLoss: 0	 loss :4.60543155670166
+TrainBatchLoss: 100	 loss :4.60570765013742
+TrainBatchLoss: 200	 loss :4.605963446014556
+TrainBatchLoss: 300	 loss :4.606244556135514
+TrainBatchLoss: 400	 loss :4.606159632342712
+TrainBatchLoss: 500	 loss :4.606406668702999
+TrainBatchLoss: 600	 loss :4.6065107708961115
+TrainBatchLoss: 700	 loss :4.606615717502872
+TrainBatchLoss: 800	 loss :4.60676186391328
+TrainBatchLoss: 900	 loss :4.606940626171929
+TrainBatchLoss: 1000	 loss :4.607049026451149
+TrainBatchLoss: 1100	 loss :4.607011431244478
+TrainBatchLoss: 1200	 loss :4.607116143768971
+TrainBatchLoss: 1300	 loss :4.607067961036747
+TrainBatchLoss: 1400	 loss :4.607050738446973
+validationBatchLoss:0	 loss :4.608924388885498
+validationBatchLoss:10	 loss :4.609187082810835
+validationBatchLoss:20	 loss :4.607252915700276
+validationBatchLoss:30	 loss :4.607585568581858
+validationBatchLoss:40	 loss :4.607667748521014
+validationBatchLoss:50	 loss :4.6076434172836
+validationBatchLoss:60	 loss :4.608151474937063
+Epoch 10 	 Training Loss: 4.607047964413961 	 Valid_Loss: 4.608015612950401 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):455.64723320007323
+TrainBatchLoss: 0	 loss :4.604484558105469
+TrainBatchLoss: 100	 loss :4.605807422411324
+TrainBatchLoss: 200	 loss :4.60598817749403
+TrainBatchLoss: 300	 loss :4.60628251617533
+TrainBatchLoss: 400	 loss :4.606270874527625
+TrainBatchLoss: 500	 loss :4.6063894797228055
+TrainBatchLoss: 600	 loss :4.606467630224498
+TrainBatchLoss: 700	 loss :4.606693266461817
+TrainBatchLoss: 800	 loss :4.6067560198304065
+TrainBatchLoss: 900	 loss :4.606825862952263
+TrainBatchLoss: 1000	 loss :4.606831641583057
+TrainBatchLoss: 1100	 loss :4.606872805457674
+TrainBatchLoss: 1200	 loss :4.606898145016584
+TrainBatchLoss: 1300	 loss :4.606850824935174
+TrainBatchLoss: 1400	 loss :4.606873141621624
+validationBatchLoss:0	 loss :4.613194465637207
+validationBatchLoss:10	 loss :4.607607581398704
+validationBatchLoss:20	 loss :4.608040378207252
+validationBatchLoss:30	 loss :4.607117314492503
+validationBatchLoss:40	 loss :4.607233303349193
+validationBatchLoss:50	 loss :4.607625521865546
+validationBatchLoss:60	 loss :4.607703584139465
+Epoch 11 	 Training Loss: 4.606918051719665 	 Valid_Loss: 4.6075949593195835 	 val_acc@1: 0.8 	 LR:0.001 	 Time(s):455.62867598100144
+TrainBatchLoss: 0	 loss :4.598117351531982
+TrainBatchLoss: 100	 loss :4.606096319632955
+TrainBatchLoss: 200	 loss :4.605934306756774
+TrainBatchLoss: 300	 loss :4.605958175025509
+TrainBatchLoss: 400	 loss :4.60603117526618
+TrainBatchLoss: 500	 loss :4.6062230883006325
+TrainBatchLoss: 600	 loss :4.606171656368973
+TrainBatchLoss: 700	 loss :4.606325637256878
+TrainBatchLoss: 800	 loss :4.606366995717405
+TrainBatchLoss: 900	 loss :4.606343372548196
+TrainBatchLoss: 1000	 loss :4.606534325754964
+TrainBatchLoss: 1100	 loss :4.606514290611274
+TrainBatchLoss: 1200	 loss :4.60651707708786
+TrainBatchLoss: 1300	 loss :4.606575684397153
+TrainBatchLoss: 1400	 loss :4.606607783955391
+validationBatchLoss:0	 loss :4.601709365844727
+validationBatchLoss:10	 loss :4.6059301549738105
+validationBatchLoss:20	 loss :4.606681619371686
+validationBatchLoss:30	 loss :4.607162675549907
+validationBatchLoss:40	 loss :4.607077005432873
+validationBatchLoss:50	 loss :4.607099000145407
+validationBatchLoss:60	 loss :4.606931584780334
+Epoch 12 	 Training Loss: 4.6066256456375125 	 Valid_Loss: 4.606929287077889 	 val_acc@1: 0.75 	 LR:0.001 	 Time(s):467.69299324353534
+TrainBatchLoss: 0	 loss :4.605977535247803
+TrainBatchLoss: 100	 loss :4.6050247626729535
+TrainBatchLoss: 200	 loss :4.604985910861647
+TrainBatchLoss: 300	 loss :4.6051605642832
+TrainBatchLoss: 400	 loss :4.6054820598212265
+TrainBatchLoss: 500	 loss :4.605561916937609
+TrainBatchLoss: 600	 loss :4.605939026481895
+TrainBatchLoss: 700	 loss :4.606020317948324
+TrainBatchLoss: 800	 loss :4.606186646498395
+TrainBatchLoss: 900	 loss :4.606213533124172
+TrainBatchLoss: 1000	 loss :4.6062651985770575
+TrainBatchLoss: 1100	 loss :4.606315359865721
+TrainBatchLoss: 1200	 loss :4.606389248996452
+TrainBatchLoss: 1300	 loss :4.606402405952143
+TrainBatchLoss: 1400	 loss :4.606433127115319
+validationBatchLoss:0	 loss :4.606894016265869
+validationBatchLoss:10	 loss :4.606236241080544
+validationBatchLoss:20	 loss :4.60685598282587
+validationBatchLoss:30	 loss :4.607011687371038
+validationBatchLoss:40	 loss :4.606789635448921
+validationBatchLoss:50	 loss :4.606564044952393
+validationBatchLoss:60	 loss :4.60632372684166
+Epoch 13 	 Training Loss: 4.6065056641896565 	 Valid_Loss: 4.606375013078962 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):499.62111419897815
+TrainBatchLoss: 0	 loss :4.6094160079956055
+TrainBatchLoss: 100	 loss :4.605782263349779
+TrainBatchLoss: 200	 loss :4.605986832386225
+TrainBatchLoss: 300	 loss :4.6057853777939295
+TrainBatchLoss: 400	 loss :4.605880795571572
+TrainBatchLoss: 500	 loss :4.605954812672324
+TrainBatchLoss: 600	 loss :4.606078317677122
+TrainBatchLoss: 700	 loss :4.606104586161832
+TrainBatchLoss: 800	 loss :4.606142888206072
+TrainBatchLoss: 900	 loss :4.606192814787803
+TrainBatchLoss: 1000	 loss :4.606187189732874
+TrainBatchLoss: 1100	 loss :4.6062868735012845
+TrainBatchLoss: 1200	 loss :4.606318120853192
+TrainBatchLoss: 1300	 loss :4.6063148229512505
+TrainBatchLoss: 1400	 loss :4.606330404955519
+validationBatchLoss:0	 loss :4.6022868156433105
+validationBatchLoss:10	 loss :4.606713164936412
+validationBatchLoss:20	 loss :4.606628690447126
+validationBatchLoss:30	 loss :4.606548847690705
+validationBatchLoss:40	 loss :4.606797788201309
+validationBatchLoss:50	 loss :4.606910799063888
+validationBatchLoss:60	 loss :4.60690245862867
+Epoch 14 	 Training Loss: 4.606359697341919 	 Valid_Loss: 4.606933306133937 	 val_acc@1: 0.8999999999999999 	 LR:0.001 	 Time(s):518.0558764423643
+TrainBatchLoss: 0	 loss :4.6066670417785645
+TrainBatchLoss: 100	 loss :4.605101297397424
+TrainBatchLoss: 200	 loss :4.605540339626483
+TrainBatchLoss: 300	 loss :4.605668017238478
+TrainBatchLoss: 400	 loss :4.605728186276785
+TrainBatchLoss: 500	 loss :4.605850833618712
+TrainBatchLoss: 600	 loss :4.605919922846129
+TrainBatchLoss: 700	 loss :4.6060339537224655
+TrainBatchLoss: 800	 loss :4.606039154395629
+TrainBatchLoss: 900	 loss :4.606125233043708
+TrainBatchLoss: 1000	 loss :4.606116312009829
+TrainBatchLoss: 1100	 loss :4.606171737466478
+TrainBatchLoss: 1200	 loss :4.606224598038901
+TrainBatchLoss: 1300	 loss :4.6062423275765045
+TrainBatchLoss: 1400	 loss :4.606272000401978
+validationBatchLoss:0	 loss :4.6047468185424805
+validationBatchLoss:10	 loss :4.607242107391357
+validationBatchLoss:20	 loss :4.606852872031076
+validationBatchLoss:30	 loss :4.60676973096786
+validationBatchLoss:40	 loss :4.606425134147086
+validationBatchLoss:50	 loss :4.606690743390252
+validationBatchLoss:60	 loss :4.606606577263504
+Epoch 15 	 Training Loss: 4.606279869079589 	 Valid_Loss: 4.606663454146612 	 val_acc@1: 0.95 	 LR:0.001 	 Time(s):513.9176974137624
+TrainBatchLoss: 0	 loss :4.608615875244141
+TrainBatchLoss: 100	 loss :4.60562793807228
+TrainBatchLoss: 200	 loss :4.605594276788816
+TrainBatchLoss: 300	 loss :4.605704345576391
+TrainBatchLoss: 400	 loss :4.605877796610692
+TrainBatchLoss: 500	 loss :4.605817363647644
+TrainBatchLoss: 600	 loss :4.605876566368014
+TrainBatchLoss: 700	 loss :4.605927113629612
+TrainBatchLoss: 800	 loss :4.605926749411593
+TrainBatchLoss: 900	 loss :4.6059460518230475
+TrainBatchLoss: 1000	 loss :4.605942654681134
+TrainBatchLoss: 1100	 loss :4.605937729955911
+TrainBatchLoss: 1200	 loss :4.605981390045446
+TrainBatchLoss: 1300	 loss :4.606026572506763
+TrainBatchLoss: 1400	 loss :4.6060686475629895
+validationBatchLoss:0	 loss :4.608103275299072
+validationBatchLoss:10	 loss :4.6066319292241875
+validationBatchLoss:20	 loss :4.606961817968459
+validationBatchLoss:30	 loss :4.606689806907408
+validationBatchLoss:40	 loss :4.606738369639327
+validationBatchLoss:50	 loss :4.606801939945595
+validationBatchLoss:60	 loss :4.606765879959356
+Epoch 16 	 Training Loss: 4.606084780693054 	 Valid_Loss: 4.60680723947192 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):510.30632247030735
+TrainBatchLoss: 0	 loss :4.60601282119751
+TrainBatchLoss: 100	 loss :4.605140912650835
+TrainBatchLoss: 200	 loss :4.605525348910052
+TrainBatchLoss: 300	 loss :4.605431979676814
+TrainBatchLoss: 400	 loss :4.605468672707194
+TrainBatchLoss: 500	 loss :4.605520943205752
+TrainBatchLoss: 600	 loss :4.6056187490060205
+TrainBatchLoss: 700	 loss :4.605678527059297
+TrainBatchLoss: 800	 loss :4.605772551823496
+TrainBatchLoss: 900	 loss :4.605802675198503
+TrainBatchLoss: 1000	 loss :4.605834240203613
+TrainBatchLoss: 1100	 loss :4.60586815850503
+TrainBatchLoss: 1200	 loss :4.6058777853610815
+TrainBatchLoss: 1300	 loss :4.605929813414331
+TrainBatchLoss: 1400	 loss :4.605962380947682
+validationBatchLoss:0	 loss :4.605833053588867
+validationBatchLoss:10	 loss :4.606647274710915
+validationBatchLoss:20	 loss :4.606721310388474
+validationBatchLoss:30	 loss :4.6067693771854525
+validationBatchLoss:40	 loss :4.606874803217446
+validationBatchLoss:50	 loss :4.606748319139667
+validationBatchLoss:60	 loss :4.606720721135374
+Epoch 17 	 Training Loss: 4.6059991044998165 	 Valid_Loss: 4.606802349998837 	 val_acc@1: 0.95 	 LR:0.001 	 Time(s):507.1319416691275
+TrainBatchLoss: 0	 loss :4.605271339416504
+TrainBatchLoss: 100	 loss :4.605156478315297
+TrainBatchLoss: 200	 loss :4.605267709760524
+TrainBatchLoss: 300	 loss :4.605350437354407
+TrainBatchLoss: 400	 loss :4.605548000097869
+TrainBatchLoss: 500	 loss :4.605663723098542
+TrainBatchLoss: 600	 loss :4.605602647619517
+TrainBatchLoss: 700	 loss :4.605576751915772
+TrainBatchLoss: 800	 loss :4.605653552675664
+TrainBatchLoss: 900	 loss :4.6057064292433525
+TrainBatchLoss: 1000	 loss :4.605791014748496
+TrainBatchLoss: 1100	 loss :4.605800180409195
+TrainBatchLoss: 1200	 loss :4.6058246587138685
+TrainBatchLoss: 1300	 loss :4.605867272610851
+TrainBatchLoss: 1400	 loss :4.6059336053057285
+validationBatchLoss:0	 loss :4.609410285949707
+validationBatchLoss:10	 loss :4.605603434822776
+validationBatchLoss:20	 loss :4.606373060317266
+validationBatchLoss:30	 loss :4.606554492827384
+validationBatchLoss:40	 loss :4.606552938135659
+validationBatchLoss:50	 loss :4.606832111583037
+validationBatchLoss:60	 loss :4.6068563070453585
+Epoch 18 	 Training Loss: 4.60593345451355 	 Valid_Loss: 4.606813877347916 	 val_acc@1: 0.8500000000000001 	 LR:0.001 	 Time(s):504.31706351704065
+TrainBatchLoss: 0	 loss :4.607350826263428
+TrainBatchLoss: 100	 loss :4.6053879851161845
+TrainBatchLoss: 200	 loss :4.6054504593806485
+TrainBatchLoss: 300	 loss :4.605424477016411
+TrainBatchLoss: 400	 loss :4.605526650635679
+TrainBatchLoss: 500	 loss :4.605483603334712
+TrainBatchLoss: 600	 loss :4.605607077206629
+TrainBatchLoss: 700	 loss :4.60562472880822
+TrainBatchLoss: 800	 loss :4.605635779924905
+TrainBatchLoss: 900	 loss :4.605688204114366
+TrainBatchLoss: 1000	 loss :4.6057207415273025
+TrainBatchLoss: 1100	 loss :4.6057930741929445
+TrainBatchLoss: 1200	 loss :4.605838696625112
+TrainBatchLoss: 1300	 loss :4.605865678999811
+TrainBatchLoss: 1400	 loss :4.605860897339216
+validationBatchLoss:0	 loss :4.6092095375061035
+validationBatchLoss:10	 loss :4.607836636629972
+validationBatchLoss:20	 loss :4.607485544113886
+validationBatchLoss:30	 loss :4.6069855536184
+validationBatchLoss:40	 loss :4.607282115191948
+validationBatchLoss:50	 loss :4.607198369269278
+validationBatchLoss:60	 loss :4.6072262779611055
+Epoch 19 	 Training Loss: 4.60591190846761 	 Valid_Loss: 4.607209758153037 	 val_acc@1: 0.44999999999999996 	 LR:0.001 	 Time(s):501.79717746533845
+TrainBatchLoss: 0	 loss :4.603246688842773
+TrainBatchLoss: 100	 loss :4.605238168546469
+TrainBatchLoss: 200	 loss :4.605139250779033
+TrainBatchLoss: 300	 loss :4.605290751916626
+TrainBatchLoss: 400	 loss :4.605500734952322
+TrainBatchLoss: 500	 loss :4.605548884340389
+TrainBatchLoss: 600	 loss :4.6056028896084245
+TrainBatchLoss: 700	 loss :4.605755717540093
+TrainBatchLoss: 800	 loss :4.605761104755187
+TrainBatchLoss: 900	 loss :4.605725510138915
+TrainBatchLoss: 1000	 loss :4.605761193133496
+TrainBatchLoss: 1100	 loss :4.605781590256444
+TrainBatchLoss: 1200	 loss :4.605813488575143
+TrainBatchLoss: 1300	 loss :4.605846781441104
+TrainBatchLoss: 1400	 loss :4.6059129120706235
+validationBatchLoss:0	 loss :4.612898349761963
+validationBatchLoss:10	 loss :4.608137650923296
+validationBatchLoss:20	 loss :4.607112748282296
+validationBatchLoss:30	 loss :4.606730522647981
+validationBatchLoss:40	 loss :4.606776051404999
+validationBatchLoss:50	 loss :4.606797723209157
+validationBatchLoss:60	 loss :4.60692566730937
+Epoch 20 	 Training Loss: 4.6059207998911535 	 Valid_Loss: 4.606916442749992 	 val_acc@1: 0.75 	 LR:0.001 	 Time(s):499.5190252184868
+TrainBatchLoss: 0	 loss :4.606982707977295
+TrainBatchLoss: 100	 loss :4.604971460776754
+TrainBatchLoss: 200	 loss :4.605333057802115
+TrainBatchLoss: 300	 loss :4.605287911487972
+TrainBatchLoss: 400	 loss :4.6052195627493155
+TrainBatchLoss: 500	 loss :4.605355968970263
+TrainBatchLoss: 600	 loss :4.605447793760633
+TrainBatchLoss: 700	 loss :4.605516741857379
+TrainBatchLoss: 800	 loss :4.605630760335743
+TrainBatchLoss: 900	 loss :4.605670017090013
+TrainBatchLoss: 1000	 loss :4.60573782001461
+TrainBatchLoss: 1100	 loss :4.605772689729252
+TrainBatchLoss: 1200	 loss :4.60579872409271
+TrainBatchLoss: 1300	 loss :4.605838953394967
+TrainBatchLoss: 1400	 loss :4.60585865848495
+validationBatchLoss:0	 loss :4.607883453369141
+validationBatchLoss:10	 loss :4.607863686301491
+validationBatchLoss:20	 loss :4.607490198952811
+validationBatchLoss:30	 loss :4.607406677738313
+validationBatchLoss:40	 loss :4.607114454595054
+validationBatchLoss:50	 loss :4.607030326244878
+validationBatchLoss:60	 loss :4.607006979770348
+Epoch 21 	 Training Loss: 4.605900575319926 	 Valid_Loss: 4.606967880612328 	 val_acc@1: 0.44999999999999996 	 LR:0.001 	 Time(s):497.4511335577284
+TrainBatchLoss: 0	 loss :4.607053279876709
+TrainBatchLoss: 100	 loss :4.605190546205728
+TrainBatchLoss: 200	 loss :4.605472809046655
+TrainBatchLoss: 300	 loss :4.605571859302711
+TrainBatchLoss: 400	 loss :4.605509455959101
+TrainBatchLoss: 500	 loss :4.605496163853628
+TrainBatchLoss: 600	 loss :4.605486336643009
+TrainBatchLoss: 700	 loss :4.605595958726042
+TrainBatchLoss: 800	 loss :4.605635826358486
+TrainBatchLoss: 900	 loss :4.6056896356843025
+TrainBatchLoss: 1000	 loss :4.605737918621296
+TrainBatchLoss: 1100	 loss :4.60577462955998
+TrainBatchLoss: 1200	 loss :4.605820178191529
+TrainBatchLoss: 1300	 loss :4.605853773831038
+TrainBatchLoss: 1400	 loss :4.6058746119382805
+validationBatchLoss:0	 loss :4.607506275177002
+validationBatchLoss:10	 loss :4.607644384557551
+validationBatchLoss:20	 loss :4.607207479931059
+validationBatchLoss:30	 loss :4.6071863635893795
+validationBatchLoss:40	 loss :4.60715445076547
+validationBatchLoss:50	 loss :4.607234440597833
+validationBatchLoss:60	 loss :4.607255607354836
+Epoch 22 	 Training Loss: 4.605882926940918 	 Valid_Loss: 4.607120748550173 	 val_acc@1: 0.44999999999999996 	 LR:0.001 	 Time(s):495.56275593150747
+TrainBatchLoss: 0	 loss :4.605478286743164
+TrainBatchLoss: 100	 loss :4.605594290365087
+TrainBatchLoss: 200	 loss :4.6053804141371995
+TrainBatchLoss: 300	 loss :4.6055742403201485
+TrainBatchLoss: 400	 loss :4.605676040982368
+TrainBatchLoss: 500	 loss :4.605534251816496
+TrainBatchLoss: 600	 loss :4.6055244233167905
+TrainBatchLoss: 700	 loss :4.605600195162307
+TrainBatchLoss: 800	 loss :4.605662342909719
+TrainBatchLoss: 900	 loss :4.605760323485312
+TrainBatchLoss: 1000	 loss :4.605767872664598
+TrainBatchLoss: 1100	 loss :4.605780496259476
+TrainBatchLoss: 1200	 loss :4.605798825336237
+TrainBatchLoss: 1300	 loss :4.605866820696773
+TrainBatchLoss: 1400	 loss :4.605886438248585
+validationBatchLoss:0	 loss :4.6063642501831055
+validationBatchLoss:10	 loss :4.605961582877419
+validationBatchLoss:20	 loss :4.606504031590053
+validationBatchLoss:30	 loss :4.606853392816359
+validationBatchLoss:40	 loss :4.606673008058129
+validationBatchLoss:50	 loss :4.606841218237784
+validationBatchLoss:60	 loss :4.606886691734439
+Epoch 23 	 Training Loss: 4.605929872194926 	 Valid_Loss: 4.6068931382799905 	 val_acc@1: 0.75 	 LR:0.001 	 Time(s):493.847740639811
+TrainBatchLoss: 0	 loss :4.6040472984313965
+TrainBatchLoss: 100	 loss :4.604935702711049
+TrainBatchLoss: 200	 loss :4.605532665157792
+TrainBatchLoss: 300	 loss :4.605488458741147
+TrainBatchLoss: 400	 loss :4.605591167535568
+TrainBatchLoss: 500	 loss :4.6056065093019525
+TrainBatchLoss: 600	 loss :4.605593203704885
+TrainBatchLoss: 700	 loss :4.605610839990678
+TrainBatchLoss: 800	 loss :4.605629667955987
+TrainBatchLoss: 900	 loss :4.605706070424714
+TrainBatchLoss: 1000	 loss :4.605738063434978
+TrainBatchLoss: 1100	 loss :4.605799772867173
+TrainBatchLoss: 1200	 loss :4.605825580228477
+TrainBatchLoss: 1300	 loss :4.6058577453971
+TrainBatchLoss: 1400	 loss :4.605908240700177
+validationBatchLoss:0	 loss :4.60811185836792
+validationBatchLoss:10	 loss :4.607224074277011
+validationBatchLoss:20	 loss :4.6069770994640535
+validationBatchLoss:30	 loss :4.60720863649922
+validationBatchLoss:40	 loss :4.606994652166599
+validationBatchLoss:50	 loss :4.606993871576646
+validationBatchLoss:60	 loss :4.606859660539471
+Epoch 24 	 Training Loss: 4.605912687937419 	 Valid_Loss: 4.606747596982926 	 val_acc@1: 0.8 	 LR:0.001 	 Time(s):492.2858740290006
+TrainBatchLoss: 0	 loss :4.607987403869629
+TrainBatchLoss: 100	 loss :4.605287471620163
+TrainBatchLoss: 200	 loss :4.605082727783355
+TrainBatchLoss: 300	 loss :4.605290490527485
+TrainBatchLoss: 400	 loss :4.605404683776627
+TrainBatchLoss: 500	 loss :4.60553161541145
+TrainBatchLoss: 600	 loss :4.605586150323293
+TrainBatchLoss: 700	 loss :4.60561937816473
+TrainBatchLoss: 800	 loss :4.605658009704133
+TrainBatchLoss: 900	 loss :4.60568705568303
+TrainBatchLoss: 1000	 loss :4.605770737498433
+TrainBatchLoss: 1100	 loss :4.605810585073944
+TrainBatchLoss: 1200	 loss :4.605813364700711
+TrainBatchLoss: 1300	 loss :4.605841478322855
+TrainBatchLoss: 1400	 loss :4.6058782370578895
+validationBatchLoss:0	 loss :4.608514308929443
+validationBatchLoss:10	 loss :4.606050534681841
+validationBatchLoss:20	 loss :4.606702100662958
+validationBatchLoss:30	 loss :4.606874096778132
+validationBatchLoss:40	 loss :4.606897563469119
+validationBatchLoss:50	 loss :4.606704188328163
+validationBatchLoss:60	 loss :4.606765840874344
+Epoch 25 	 Training Loss: 4.605914601008097 	 Valid_Loss: 4.606767745245071 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):490.83627574920655
+TrainBatchLoss: 0	 loss :4.6066389083862305
+TrainBatchLoss: 100	 loss :4.605306611202731
+TrainBatchLoss: 200	 loss :4.605263636479924
+TrainBatchLoss: 300	 loss :4.605413056687263
+TrainBatchLoss: 400	 loss :4.605462434583174
+TrainBatchLoss: 500	 loss :4.605543325999064
+TrainBatchLoss: 600	 loss :4.605568119372782
+TrainBatchLoss: 700	 loss :4.60573154237233
+TrainBatchLoss: 800	 loss :4.6057460608702625
+TrainBatchLoss: 900	 loss :4.605760999842569
+TrainBatchLoss: 1000	 loss :4.605761763813732
+TrainBatchLoss: 1100	 loss :4.605788793918981
+TrainBatchLoss: 1200	 loss :4.6058218755094735
+TrainBatchLoss: 1300	 loss :4.605853136459925
+TrainBatchLoss: 1400	 loss :4.605863641620448
+validationBatchLoss:0	 loss :4.612210273742676
+validationBatchLoss:10	 loss :4.607147346843373
+validationBatchLoss:20	 loss :4.607509749276297
+validationBatchLoss:30	 loss :4.607560557703818
+validationBatchLoss:40	 loss :4.607230523737465
+validationBatchLoss:50	 loss :4.6071578381108305
+validationBatchLoss:60	 loss :4.607025224654401
+Epoch 26 	 Training Loss: 4.605908606529236 	 Valid_Loss: 4.607118810926165 	 val_acc@1: 1.0 	 LR:0.001 	 Time(s):489.50650750673736
+TrainBatchLoss: 0	 loss :4.604578495025635
+TrainBatchLoss: 100	 loss :4.60559075893742
+TrainBatchLoss: 200	 loss :4.605407446771118
+TrainBatchLoss: 300	 loss :4.605392444965451
+TrainBatchLoss: 400	 loss :4.605416358557722
+TrainBatchLoss: 500	 loss :4.605428836540786
+TrainBatchLoss: 600	 loss :4.6055579661529595
+TrainBatchLoss: 700	 loss :4.6056260205539585
+TrainBatchLoss: 800	 loss :4.605647304977817
+TrainBatchLoss: 900	 loss :4.605631354646333
+TrainBatchLoss: 1000	 loss :4.605724542410105
+TrainBatchLoss: 1100	 loss :4.605757411017838
+TrainBatchLoss: 1200	 loss :4.605805800419664
+TrainBatchLoss: 1300	 loss :4.6058625386917615
+TrainBatchLoss: 1400	 loss :4.605888951769222
+validationBatchLoss:0	 loss :4.606539249420166
+validationBatchLoss:10	 loss :4.606453245336359
+validationBatchLoss:20	 loss :4.606648921966553
+validationBatchLoss:30	 loss :4.6069473912639
+validationBatchLoss:40	 loss :4.606958366021877
+validationBatchLoss:50	 loss :4.607092707764869
+validationBatchLoss:60	 loss :4.607184222487152
+Epoch 27 	 Training Loss: 4.605906029701233 	 Valid_Loss: 4.607076788705493 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):488.2795913749271
+TrainBatchLoss: 0	 loss :4.6069488525390625
+TrainBatchLoss: 100	 loss :4.605281527679746
+TrainBatchLoss: 200	 loss :4.605390814406362
+TrainBatchLoss: 300	 loss :4.605348907039807
+TrainBatchLoss: 400	 loss :4.605402826371038
+TrainBatchLoss: 500	 loss :4.605442396419015
+TrainBatchLoss: 600	 loss :4.60550747853944
+TrainBatchLoss: 700	 loss :4.605597951102699
+TrainBatchLoss: 800	 loss :4.605608438284656
+TrainBatchLoss: 900	 loss :4.605620690641075
+TrainBatchLoss: 1000	 loss :4.605706374009292
+TrainBatchLoss: 1100	 loss :4.605752647410297
+TrainBatchLoss: 1200	 loss :4.605799003207217
+TrainBatchLoss: 1300	 loss :4.605847361269224
+TrainBatchLoss: 1400	 loss :4.605882592238672
+validationBatchLoss:0	 loss :4.606164455413818
+validationBatchLoss:10	 loss :4.6069371483542705
+validationBatchLoss:20	 loss :4.607233978453136
+validationBatchLoss:30	 loss :4.606960450449297
+validationBatchLoss:40	 loss :4.606792461581346
+validationBatchLoss:50	 loss :4.606755032258875
+validationBatchLoss:60	 loss :4.606819809460249
+Epoch 28 	 Training Loss: 4.60590594514211 	 Valid_Loss: 4.606855854155525 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):487.1427864091737
+TrainBatchLoss: 0	 loss :4.603565692901611
+TrainBatchLoss: 100	 loss :4.605484754732339
+TrainBatchLoss: 200	 loss :4.605296338968609
+TrainBatchLoss: 300	 loss :4.605212092795641
+TrainBatchLoss: 400	 loss :4.605350388553077
+TrainBatchLoss: 500	 loss :4.60548981649433
+TrainBatchLoss: 600	 loss :4.605647559967295
+TrainBatchLoss: 700	 loss :4.605717737902588
+TrainBatchLoss: 800	 loss :4.605726020612967
+TrainBatchLoss: 900	 loss :4.6057809497354825
+TrainBatchLoss: 1000	 loss :4.605823027146803
+TrainBatchLoss: 1100	 loss :4.605789009600093
+TrainBatchLoss: 1200	 loss :4.605789788061137
+TrainBatchLoss: 1300	 loss :4.605814949903555
+TrainBatchLoss: 1400	 loss :4.605859832709215
+validationBatchLoss:0	 loss :4.609113693237305
+validationBatchLoss:10	 loss :4.607621366327459
+validationBatchLoss:20	 loss :4.607417742411296
+validationBatchLoss:30	 loss :4.607277485632127
+validationBatchLoss:40	 loss :4.607069027133104
+validationBatchLoss:50	 loss :4.607059712503471
+validationBatchLoss:60	 loss :4.606950032906454
+Epoch 29 	 Training Loss: 4.605905331929525 	 Valid_Loss: 4.606920310429165 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):486.0742071990309
+TrainBatchLoss: 0	 loss :4.605501174926758
+TrainBatchLoss: 100	 loss :4.605221181812853
+TrainBatchLoss: 200	 loss :4.605423514522723
+TrainBatchLoss: 300	 loss :4.605469595950307
+TrainBatchLoss: 400	 loss :4.605443928307132
+TrainBatchLoss: 500	 loss :4.605489414847064
+TrainBatchLoss: 600	 loss :4.605576669911973
+TrainBatchLoss: 700	 loss :4.605599899264783
+TrainBatchLoss: 800	 loss :4.605634113673712
+TrainBatchLoss: 900	 loss :4.605700847972908
+TrainBatchLoss: 1000	 loss :4.6057502716094945
+TrainBatchLoss: 1100	 loss :4.605823235767305
+TrainBatchLoss: 1200	 loss :4.6058624447831304
+TrainBatchLoss: 1300	 loss :4.605875212444332
+TrainBatchLoss: 1400	 loss :4.605887073350752
+validationBatchLoss:0	 loss :4.608373641967773
+validationBatchLoss:10	 loss :4.607545896009966
+validationBatchLoss:20	 loss :4.607296898251488
+validationBatchLoss:30	 loss :4.607056540827597
+validationBatchLoss:40	 loss :4.607055431459008
+validationBatchLoss:50	 loss :4.607012991811715
+validationBatchLoss:60	 loss :4.607083234630648
+Epoch 30 	 Training Loss: 4.605905957221985 	 Valid_Loss: 4.60704241101704 	 val_acc@1: 0.8 	 LR:0.001 	 Time(s):485.0910322666168
+TrainBatchLoss: 0	 loss :4.605374813079834
+TrainBatchLoss: 100	 loss :4.6054200559559435
+TrainBatchLoss: 200	 loss :4.6053881170737805
+TrainBatchLoss: 300	 loss :4.605355337212648
+TrainBatchLoss: 400	 loss :4.605388162142024
+TrainBatchLoss: 500	 loss :4.6053875011360335
+TrainBatchLoss: 600	 loss :4.605447881035321
+TrainBatchLoss: 700	 loss :4.605554516067178
+TrainBatchLoss: 800	 loss :4.605617269594571
+TrainBatchLoss: 900	 loss :4.605720162788586
+TrainBatchLoss: 1000	 loss :4.605721700441587
+TrainBatchLoss: 1100	 loss :4.605753945827917
+TrainBatchLoss: 1200	 loss :4.605834100963075
+TrainBatchLoss: 1300	 loss :4.605839108431184
+TrainBatchLoss: 1400	 loss :4.605885390976682
+validationBatchLoss:0	 loss :4.608187675476074
+validationBatchLoss:10	 loss :4.608559044924649
+validationBatchLoss:20	 loss :4.608059928530738
+validationBatchLoss:30	 loss :4.607664938895933
+validationBatchLoss:40	 loss :4.607375831138797
+validationBatchLoss:50	 loss :4.607220453374526
+validationBatchLoss:60	 loss :4.607011107147717
+Epoch 31 	 Training Loss: 4.605899054209392 	 Valid_Loss: 4.607000903477744 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):484.1605809503986
+TrainBatchLoss: 0	 loss :4.604769706726074
+TrainBatchLoss: 100	 loss :4.605204671916395
+TrainBatchLoss: 200	 loss :4.605178166384721
+TrainBatchLoss: 300	 loss :4.6051482045373255
+TrainBatchLoss: 400	 loss :4.605325205367699
+TrainBatchLoss: 500	 loss :4.605433874263497
+TrainBatchLoss: 600	 loss :4.6054740697889285
+TrainBatchLoss: 700	 loss :4.605611578033926
+TrainBatchLoss: 800	 loss :4.6056580168477605
+TrainBatchLoss: 900	 loss :4.605676910853412
+TrainBatchLoss: 1000	 loss :4.605745049266072
+TrainBatchLoss: 1100	 loss :4.605775607920689
+TrainBatchLoss: 1200	 loss :4.605830993382361
+TrainBatchLoss: 1300	 loss :4.605831583127162
+TrainBatchLoss: 1400	 loss :4.605863423452983
+validationBatchLoss:0	 loss :4.60860013961792
+validationBatchLoss:10	 loss :4.606931643052534
+validationBatchLoss:20	 loss :4.606997308276949
+validationBatchLoss:30	 loss :4.607227217766546
+validationBatchLoss:40	 loss :4.607217393270353
+validationBatchLoss:50	 loss :4.606959193360572
+validationBatchLoss:60	 loss :4.6067882678547845
+Epoch 32 	 Training Loss: 4.605915007273356 	 Valid_Loss: 4.6067323760380825 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):483.2925614193082
+TrainBatchLoss: 0	 loss :4.603082180023193
+TrainBatchLoss: 100	 loss :4.605390477888655
+TrainBatchLoss: 200	 loss :4.605464292402885
+TrainBatchLoss: 300	 loss :4.605369702526105
+TrainBatchLoss: 400	 loss :4.605523336557973
+TrainBatchLoss: 500	 loss :4.605552861790457
+TrainBatchLoss: 600	 loss :4.605607228747224
+TrainBatchLoss: 700	 loss :4.6056915975671355
+TrainBatchLoss: 800	 loss :4.605719275242381
+TrainBatchLoss: 900	 loss :4.605738101074354
+TrainBatchLoss: 1000	 loss :4.605760876353566
+TrainBatchLoss: 1100	 loss :4.605778906369188
+TrainBatchLoss: 1200	 loss :4.605802189003518
+TrainBatchLoss: 1300	 loss :4.605849318097501
+TrainBatchLoss: 1400	 loss :4.605877368812643
+validationBatchLoss:0	 loss :4.605053424835205
+validationBatchLoss:10	 loss :4.60676063190807
+validationBatchLoss:20	 loss :4.606815542493548
+validationBatchLoss:30	 loss :4.607032914315501
+validationBatchLoss:40	 loss :4.607132911682129
+validationBatchLoss:50	 loss :4.607062825969622
+validationBatchLoss:60	 loss :4.606972710030978
+Epoch 33 	 Training Loss: 4.605915737469991 	 Valid_Loss: 4.606966185191321 	 val_acc@1: 0.65 	 LR:0.001 	 Time(s):482.4728143865412
+TrainBatchLoss: 0	 loss :4.605759620666504
+TrainBatchLoss: 100	 loss :4.605024422749435
+TrainBatchLoss: 200	 loss :4.6051627486499385
+TrainBatchLoss: 300	 loss :4.605372688699006
+TrainBatchLoss: 400	 loss :4.605463961413377
+TrainBatchLoss: 500	 loss :4.605456049570781
+TrainBatchLoss: 600	 loss :4.605569975943415
+TrainBatchLoss: 700	 loss :4.605559447012342
+TrainBatchLoss: 800	 loss :4.605700369631307
+TrainBatchLoss: 900	 loss :4.605758198622726
+TrainBatchLoss: 1000	 loss :4.605752121794831
+TrainBatchLoss: 1100	 loss :4.6057759517978045
+TrainBatchLoss: 1200	 loss :4.605811279481099
+TrainBatchLoss: 1300	 loss :4.605838777100829
+TrainBatchLoss: 1400	 loss :4.605874943443914
+validationBatchLoss:0	 loss :4.607580184936523
+validationBatchLoss:10	 loss :4.606899391521107
+validationBatchLoss:20	 loss :4.607065609523228
+validationBatchLoss:30	 loss :4.607198115318052
+validationBatchLoss:40	 loss :4.6071996921446265
+validationBatchLoss:50	 loss :4.607119850083893
+validationBatchLoss:60	 loss :4.6070370205113145
+Epoch 34 	 Training Loss: 4.605912270228068 	 Valid_Loss: 4.607022686610146 	 val_acc@1: 0.8500000000000001 	 LR:0.001 	 Time(s):481.7006922048681
+TrainBatchLoss: 0	 loss :4.602879047393799
+TrainBatchLoss: 100	 loss :4.605074320689286
+TrainBatchLoss: 200	 loss :4.605263271142001
+TrainBatchLoss: 300	 loss :4.605381099092604
+TrainBatchLoss: 400	 loss :4.6053870669624155
+TrainBatchLoss: 500	 loss :4.605366299490253
+TrainBatchLoss: 600	 loss :4.605501724757291
+TrainBatchLoss: 700	 loss :4.60556814367863
+TrainBatchLoss: 800	 loss :4.605638599276691
+TrainBatchLoss: 900	 loss :4.605674959578604
+TrainBatchLoss: 1000	 loss :4.605685489875572
+TrainBatchLoss: 1100	 loss :4.605756063660527
+TrainBatchLoss: 1200	 loss :4.605797725553616
+TrainBatchLoss: 1300	 loss :4.605826497352829
+TrainBatchLoss: 1400	 loss :4.605862202600102
+validationBatchLoss:0	 loss :4.606325626373291
+validationBatchLoss:10	 loss :4.6071131446144795
+validationBatchLoss:20	 loss :4.607281594049363
+validationBatchLoss:30	 loss :4.606926456574471
+validationBatchLoss:40	 loss :4.606636058993455
+validationBatchLoss:50	 loss :4.606820489846024
+validationBatchLoss:60	 loss :4.606926065976502
+Epoch 35 	 Training Loss: 4.605905267397563 	 Valid_Loss: 4.606905634441073 	 val_acc@1: 0.44999999999999996 	 LR:0.001 	 Time(s):480.97221768242974
+TrainBatchLoss: 0	 loss :4.6045074462890625
+TrainBatchLoss: 100	 loss :4.605697971759456
+TrainBatchLoss: 200	 loss :4.605485705000844
+TrainBatchLoss: 300	 loss :4.605393216459458
+TrainBatchLoss: 400	 loss :4.605390404822523
+TrainBatchLoss: 500	 loss :4.605534223263374
+TrainBatchLoss: 600	 loss :4.605561580911849
+TrainBatchLoss: 700	 loss :4.6055758254504235
+TrainBatchLoss: 800	 loss :4.605614982443059
+TrainBatchLoss: 900	 loss :4.6056391348717085
+TrainBatchLoss: 1000	 loss :4.605602764583134
+TrainBatchLoss: 1100	 loss :4.6056736591834575
+TrainBatchLoss: 1200	 loss :4.605766929258018
+TrainBatchLoss: 1300	 loss :4.605824098506402
+TrainBatchLoss: 1400	 loss :4.605876703078538
+validationBatchLoss:0	 loss :4.6062164306640625
+validationBatchLoss:10	 loss :4.606694958426735
+validationBatchLoss:20	 loss :4.606580166589646
+validationBatchLoss:30	 loss :4.606395875253985
+validationBatchLoss:40	 loss :4.6065287590026855
+validationBatchLoss:50	 loss :4.606732162774778
+validationBatchLoss:60	 loss :4.606798015657018
+Epoch 36 	 Training Loss: 4.605886971473693 	 Valid_Loss: 4.606781898982941 	 val_acc@1: 0.8 	 LR:0.001 	 Time(s):480.2842956185341
+TrainBatchLoss: 0	 loss :4.604990482330322
+TrainBatchLoss: 100	 loss :4.6054544873756935
+TrainBatchLoss: 200	 loss :4.605550125463685
+TrainBatchLoss: 300	 loss :4.605474739771744
+TrainBatchLoss: 400	 loss :4.6056521884223764
+TrainBatchLoss: 500	 loss :4.605585704544585
+TrainBatchLoss: 600	 loss :4.605528040455899
+TrainBatchLoss: 700	 loss :4.6055757084518625
+TrainBatchLoss: 800	 loss :4.605625875880209
+TrainBatchLoss: 900	 loss :4.605695336560959
+TrainBatchLoss: 1000	 loss :4.605728624822138
+TrainBatchLoss: 1100	 loss :4.605734144742655
+TrainBatchLoss: 1200	 loss :4.605788457999123
+TrainBatchLoss: 1300	 loss :4.6058379810283405
+TrainBatchLoss: 1400	 loss :4.605881153899036
+validationBatchLoss:0	 loss :4.608264923095703
+validationBatchLoss:10	 loss :4.606920979239724
+validationBatchLoss:20	 loss :4.606812999362037
+validationBatchLoss:30	 loss :4.606684700135262
+validationBatchLoss:40	 loss :4.606714934837528
+validationBatchLoss:50	 loss :4.606787064496209
+validationBatchLoss:60	 loss :4.606705900098457
+Epoch 37 	 Training Loss: 4.605913016955058 	 Valid_Loss: 4.606652396065848 	 val_acc@1: 0.8999999999999999 	 LR:0.001 	 Time(s):479.6365211783229
+TrainBatchLoss: 0	 loss :4.605956554412842
+slurmstepd: error: *** JOB 874231 ON gnode035 CANCELLED AT 2023-04-13T12:03:21 ***
